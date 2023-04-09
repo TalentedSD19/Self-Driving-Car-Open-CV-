@@ -1,6 +1,6 @@
 # AEIE FINAL CODE 1
 # ©SOUMYAJIT DATTA
-
+# talentedsd19@gmail.com
 
 # importing the required libraries
 import cv2 as cv
