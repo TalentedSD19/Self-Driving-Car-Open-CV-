@@ -85,7 +85,7 @@ while (True):
 
 
 
-    # **********OPERATIONS FOR SIGNAL DETECTION**********
+    # ********** OPERATIONS FOR SIGNAL DETECTION **********
 
     # cropping the Top part of the frame for signal detection
     top_frame = frame[0:int((8 / 10) * (th)), 0:tw]
