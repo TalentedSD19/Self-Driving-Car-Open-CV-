@@ -10,7 +10,7 @@ import serial
 
 
 # establishing serial communication with arduino
-arduino = serial.Serial('com7',9600)
+arduino = serial.Serial('com4',9600)
 time.sleep(2)
 
 
@@ -25,7 +25,7 @@ max_red = max_green = 0
 # ENTER THE HSV VALUES BELOW BEFORE STARTING THE BOT
 
 # *********** HSV OF LANE ***********
-lower_lane = np.array([4, 0, 0])
+lower_lane = np.array([0, 0, 0])
 upper_lane = np.array([40, 255, 43])
 
 # *********** HSV OF RED SIGNAL ***********
